@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle at center, #0a2e1c, #051a0e);
+    font-family: "Acme", sans-serif;
+}
+
+.container-fluid {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    /* Transparent white touch */
+    border-radius: 20px;
+    margin-top: 20px;
+    backdrop-filter: blur(10px);
+    /* Modern glass look */
+}
+
+.col {
+    padding: 0px;
+}
+
+#card-grid {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 280px;
+    height: 350px;
+    overflow: hidden;
+    background-color: #8ab661 !important;
+    border-radius: 15px !important;
+    font-size: 23px;
+    font-family: "Galada";
+    margin: 10px;
+}
+
+.card img {
+    margin: 5px;
+    max-width: 265px;
+    max-height: 265px;
+    border-radius: 15px;
+}
+
+.card:hover {
+    transform: none;
+    border-color: #b8860b;
+    /* Border bhi gold ho jayegi */
+    box-shadow: 0 0 25px 8px rgba(184, 134, 11, 0.7);
+}
+
+/* Card ke andar ka shine effect bilkul khatam */
+.card::before {
+    display: none !important;
+}
+
+.card img {
+    object-fit: cover;
+    filter: grayscale(20%);
+    /* Image thodi dark takay hover par maza aaye */
+    transition: 0.3s;
+}
+
+.card:hover img {
+    filter: grayscale(0%);
+    /* Hover par image clear ho jayegi */
+}
+
+.card-body {
+    background: white;
+    /* Card ke niche ka hissa dark */
+    color: white;
+    text-align: center;
+}
+
+.row {
+    --bs-gutter-x: 0.5rem !important;
+}
+
+h1 {
+    font-family: "Acme";
+    font-weight: 400;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: #b8860b !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p,
+h6 {
+    color: #b8860b !important;
+}
+
+.card span {
+    color: #fff;
+}
+
+p{
+    display: flex;
+    justify-self: flex-start;
+}
