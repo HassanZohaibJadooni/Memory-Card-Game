@@ -1,16 +1,48 @@
-# React + Vite
+# React Card Memory Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **Card Memory Game** built using **React, Bootstrap, and JavaScript**.  
+Test your memory by clicking on cards without repeating any. Each correct click increases your score. If you click a card twice, the game is lost. The game also tracks the **best score**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 How to Play
 
-## React Compiler
+1. Click on any card to shuffle the cards.  
+2. Each unique card click increases your score by 1.  
+3. Clicking a card that has already been clicked results in a **loss**.  
+4. Try to beat your **best score**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ⚡ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Card shuffle on every click  
+- Score tracking  
+- Best score tracking  
+- Simple and responsive design using Bootstrap  
+- Built with **React Functional Components**
+
+---
+
+## 🛠 Technologies Used
+
+- React JS  
+- JavaScript  
+- HTML & CSS  
+- Bootstrap  
+
+---
+
+## 📸 Screenshots
+
+### Game Start
+![Game Start](screenshots/game-start.png)
+
+### After Clicking Cards
+![Game Play](screenshots/game-play.png)
+
+### Game Over / Score Display
+![Game Over](screenshots/game-over.png)
+
+### Game Overs / Score Display
+![Game Over](screenshots/game-overs.png)
