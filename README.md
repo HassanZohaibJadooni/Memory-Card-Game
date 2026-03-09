@@ -36,13 +36,13 @@ Test your memory by clicking on cards without repeating any. Each correct click 
 ## 📸 Screenshots
 
 ### Game Start
-![Game Start](screenshots/game-start.png)
+![Game Start](game-start.png)
 
 ### After Clicking Cards
-![Game Play](screenshots/game-play.png)
+![Game Play](game-play.png)
 
 ### Game Over / Score Display
-![Game Over](screenshots/game-over.png)
+![Game Over](game-over.png)
 
 ### Game Overs / Score Display
-![Game Over](screenshots/game-overs.png)
+![Game Over](game-overs.png)
